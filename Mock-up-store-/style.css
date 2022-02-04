@@ -1,0 +1,284 @@
+body {
+    background-image: linear-gradient( 109.5deg,  rgba(229,233,177,1) 11.2%, rgba(223,205,187,1) 100.2% );
+    
+  }
+header{
+    background-color: #212529;
+    color:#fff;
+    padding-top: 3em;    
+}
+
+a>img{
+    height: 120px;
+    width: 120px;
+}
+
+a{
+    text-decoration: none;
+    color:whitesmoke;  
+}
+
+li>a{
+    color:white;
+}
+
+a:hover{
+    color:white;
+}
+
+a:visited{
+    color:white;
+}
+
+input{
+    height: 50px;
+    font-size: 14px;
+    background-image:url(img/search.png.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-shadow: none;
+    -webkit-appearance: none;
+}
+
+::placeholder{
+    text-align:left;
+    padding-left: 50px;
+}
+
+nav{
+    font-weight:600;
+}
+
+nav>li{
+    text-align: uppercase;
+    line-height: unset;
+}
+
+nav>ul>li>{
+    color: white;
+    text-decoration: none;
+}
+
+nav.site-nav>ul.user-menu>li{
+    list-style-type: none;
+    display: inline-block;
+    padding:5px;
+    margin-bottom: none;
+}
+
+nav.site-nav>ul.user-menu>li:hover>a{
+    background-color:#fff;
+    color:black;
+}
+
+nav.site-nav > ul >li{
+    margin-bottom: 0;
+    display:inline-block;
+    padding: 15px;   
+}
+
+nav.site-nav > ul > li:hover>a{
+    background-color:#fff;
+    color:black;
+}
+
+select.option{
+    color:#0d6efd;
+    background-color: #0d6efd;
+    font-weight:600;
+}
+
+h2.product-name{
+    font-size: 3 em;
+    text-decoration: none;
+    color:grey;    
+}
+
+ul{
+    list-style-type: none;
+}
+
+span.h1{
+  text-decoration: none;  
+  color: #fff;  
+  text-align: justify;
+}
+
+h3 >li{
+text-align-last: right;
+margin-right: end;  
+}
+
+input#exampleRadios1.form-check-input{
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: 0.125rem; 
+    background-image:none;           
+}
+
+input#exampleRadios2.form-check-input{
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: 0.125rem;
+    background-image: none;
+}
+
+input#exampleRadios3.form-check-input{
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: 0.125rem;
+    background-image: none;
+}
+
+input#exampleRadios4.form-check-input{
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: 0.125rem;
+    background-image: none;
+}
+
+div#sidebar-cart ul{
+    list-style-type:none;
+    padding-left: 0;   
+}
+
+p{
+    font-size: 20px;
+    font-weight: 600;
+    display: inline;
+    line-height: 10px;   
+}
+
+main{
+    background-color: whitesmoke(243, 226, 243);
+    width:100%;
+    color:black;
+}
+
+main>div>input.class#form-control{
+    background-image: none;
+}
+
+div.col-md-1>input.form-control.w-70{
+    background-image: none;
+}
+
+div.mobile-cart {
+    position: fixed;
+    bottom:30px;
+    right:5px;    
+    padding: .5em;
+    border-radius: 5px;
+}
+
+div#sidebar-cart ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 40px;
+}
+
+span.promo{
+    border-color:#ed1c24;
+    color:#ed1c24;
+    border:1px solid;
+    }
+
+span.bestseller{
+    border-color:black;
+    color:black;
+    border:1px solid;
+}
+
+button.btn.btn-primary{
+    width:auto;
+    
+}
+button.btn.btn-success{
+    width: auto;       
+}
+
+h5{
+    text-align: center;    
+}
+
+div.col-1.align-self-end{
+    text-align:center;
+}
+
+#myCarousel{
+    margin-left: calc(-1 * var(--bs-gutter-x,.75rem));
+    margin-right: calc(-1 * var(--bs-gutter-x,.75rem));
+}
+
+div.class#language-selector-container>button{
+    border:1px solid #000;
+    border:none;
+    align-items: center;
+    background-color: transparent;
+    padding:0 1.6 rem;
+    min-width:14rem;
+}
+
+footer.container-fluid>ul>li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+div.class#logo-container>img{
+    height: 60px;
+    width: 80px;
+}
+
+div#payment>ul>li>a{
+   font-size:20px;
+   font-weight: 600;
+   line-height: 30px;
+   color:black;
+}
+
+div#payment>ul>li{
+    list-style-type: none;   
+}
+
+div.col-5>input.form-control{
+    background-image: none;
+    border:2px solid;
+    padding-left: -60px;
+    left:11px;   
+}
+
+select.form-select.form-select-sm{
+    width:200px;   
+}
+
+div.card-body>a.card-link{
+    text-decoration: none;
+    color:#000;
+    list-style-type:none;
+}
+
+div#central.card.mb-3{   
+   left:40%;
+}
+
+
+
+
+
+
+
+
+
+   
+    
+
+
+
